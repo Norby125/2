@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MyLibModule } from 'my-lib';
+import { MyLib, MyLib2 } from 'my-lib';
 
 import { AppComponent } from './app.component';
 
@@ -10,8 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MyLibModule
-    // MyLib.MyLibModule,
+    // MyLibModule
+    MyLib.MyLibModule,
     // MyLib2.MyLibModule
   ],
   providers: [],
